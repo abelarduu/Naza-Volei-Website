@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    flex-direction: column;
+    background-image: url("assets/rede-de-volei.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -550px;
+}
+
+header > div {
+    width: 31,25rem;
+}
+
+div > h1{
+    font-size: 100px;
+    color:whitesmoke;
+}
+
+nav > a {
+    margin: 0 3rem;
+    font-size: 20px;
+    color: black;
+
+}
+main{
+    background-color:rgb(255, 249, 249);
+
+}
+
+p{
+    text-align: center;
+    width: 50rem;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
