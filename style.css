@@ -4,6 +4,7 @@
 }
 header{
     flex-direction: column;
+    background: fixed;
     background-image: url("assets/rede-de-volei.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -42,3 +43,9 @@ p{
     text-align: center;
     height: 500px;
 }
+
+#ball {
+    position: absolute;
+    top: 400px;
+}
+    
