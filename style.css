@@ -28,6 +28,8 @@ nav > a {
 }
 main{
     background-color:rgb(255, 249, 249);
+    display: grid;
+    flex-direction: column;
 
 }
 
@@ -47,5 +49,13 @@ p{
 #ball {
     position: absolute;
     top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
 }
     
+#banner{
+    background-image: url("assets/sky.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -180px;
+}
