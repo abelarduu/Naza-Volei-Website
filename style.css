@@ -5,7 +5,7 @@
 header{
     flex-direction: column;
     background: fixed;
-    background-image: url("assets/rede-de-volei.jpg");
+    background-image: url("assets/volleyball-net.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position-y: -550px;
@@ -38,6 +38,16 @@ p{
     width: 50rem;
 }
 
+button{
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    border: 25px None;
+}
+
+button:hover {
+    transform: scale(0);
+}
 .centered-container {
     display: flex;
     justify-content: center;
@@ -52,10 +62,18 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
-    
+
 #banner{
-    background-image: url("assets/sky.jpg");
+    background-image: url("assets/volleyball-in-sky.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position-y: -180px;
+}
+
+#banner-2{
+    background-image: url("assets/volleyball-on-sand2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -180px;
+    height: 700px;
 }
