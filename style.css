@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     text-decoration: none;
 }
-header{
-    flex-direction: column;
+
+header {
     background: fixed;
     background-image: url("assets/volleyball-net.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position-y: -550px;
 }
 
@@ -15,39 +15,40 @@ header > div {
     width: 31,25rem;
 }
 
-div > h1{
+h1 {
     font-size: 100px;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 nav > a {
     margin: 0 3rem;
     font-size: 20px;
     color: black;
-
 }
-main{
-    background-color:rgb(255, 249, 249);
+
+main {
+    background-color: rgb(255, 249, 249);
     display: grid;
-    flex-direction: column;
-
 }
 
-p{
+p {
     text-align: center;
     width: 50rem;
 }
 
-button{
+button {
     width: 240px;
     height: 50px;
     border-radius: 25px;
-    border: 25px None;
+    border: none;
+    margin: 40px;
 }
 
-button:hover {
-    transform: scale(0);
+footer {
+    background-color: #1a1a1a;
+    color: white;
 }
+
 .centered-container {
     display: flex;
     justify-content: center;
@@ -63,17 +64,30 @@ button:hover {
     transform: translateX(-50%);
 }
 
-#banner{
+#ball.hover-effect:hover {
+    transform: translateX(-50%) scale(1.2);
+}
+
+#banner {
     background-image: url("assets/volleyball-in-sky.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position-y: -180px;
 }
 
-#banner-2{
+#banner-2 {
     background-image: url("assets/volleyball-on-sand.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position-y: -180px;
     height: 700px;
+}
+
+.hover-effect {
+    display: inline-block;
+    transition: transform .5s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.2);
 }
