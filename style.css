@@ -6,8 +6,6 @@
 header {
     background: fixed;
     background-image: url("assets/volleyball-net.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position-y: -550px;
 }
 
@@ -50,11 +48,11 @@ footer {
 }
 
 .centered-container {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 500px;
+    height: 550px;
 }
 
 #ball {
@@ -68,19 +66,20 @@ footer {
     transform: translateX(-50%) scale(1.2);
 }
 
-#banner {
-    background-image: url("assets/volleyball-in-sky.jpg");
+.banner {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -180px;
+}
+
+#banner-1 {
+    background-image: url("assets/volleyball-in-sky.jpg");
+    background-position-y: -220px;
 }
 
 #banner-2 {
     background-image: url("assets/volleyball-on-sand.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -180px;
-    height: 700px;
+    background-position-y: -200px;
+    height: 800px;
 }
 
 .hover-effect {
