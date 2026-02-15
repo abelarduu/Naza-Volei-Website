@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 18px;
 }
 
 header {
     background: fixed;
-    background-image: url("assets/volleyball-net.jpg");
+    background-image: url("src/assets/volleyball-net.jpg");
     background-position-y: -550px;
 }
 
@@ -14,13 +18,15 @@ header > div {
 }
 
 h1 {
-    font-size: 100px;
+    font-family: 'oswald';
     color: whitesmoke;
+    font-size: 110px;
 }
 
 nav > a {
-    margin: 0 3rem;
-    font-size: 20px;
+    margin: 0 2rem;
+    font-family: 'oswald';
+    font-size: 30px;
     color: black;
 }
 
@@ -29,16 +35,21 @@ main {
     display: grid;
 }
 
+section {
+    font-size: larger;
+}
+
 p {
     text-align: center;
     width: 50rem;
 }
 
 button {
+    font-family: 'oswald';
+    font-size: 30px;
     width: 240px;
     height: 50px;
     border-radius: 25px;
-    border: none;
     margin: 40px;
 }
 
@@ -52,7 +63,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 550px;
+    height: 500px;
 }
 
 #ball {
@@ -72,13 +83,13 @@ footer {
 }
 
 #banner-1 {
-    background-image: url("assets/volleyball-in-sky.jpg");
+    background-image: url("src/assets/volleyball-in-sky.jpg");
     background-position-y: -220px;
 }
 
 #banner-2 {
-    background-image: url("assets/volleyball-on-sand.jpg");
-    background-position-y: -200px;
+    background-image: url("src/assets/volleyball-on-sand.jpg");
+    background-position-y: -110px;
     height: 800px;
 }
 
@@ -89,4 +100,11 @@ footer {
 
 .hover-effect:hover {
     transform: scale(1.2);
+}
+
+
+#img-volleyball-match {
+    margin: 50px;
+    height: 300px;
+    border-radius: 25px;
 }
