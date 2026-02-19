@@ -33,7 +33,7 @@ nav > a {
 
 main {
     background-color: rgb(255, 249, 249);
-    display: grid;
+    flex-direction: column;
 }
 
 section {
@@ -50,6 +50,7 @@ button {
 }
 
 footer {
+    flex-direction: column;
     background-color: #1a1a1a;
     color: white;
 }
