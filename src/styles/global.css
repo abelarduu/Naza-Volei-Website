@@ -10,12 +10,13 @@
 
 header {
     background: fixed;
-    background-image: url("../assets/volleyball-net.jpg");
+    background-image: url("../assets/images/volleyball-net.jpg");
     background-position-y: -550px;
+    height: 500px;
 }
 
 header > div {
-    width: 31,25rem;
+    width: 31.25rem;
 }
 
 h1 {
@@ -38,6 +39,7 @@ main {
 
 section {
     font-size: larger;
+    height: 500px;
 }
 
 button {
@@ -53,6 +55,7 @@ footer {
     flex-direction: column;
     background-color: #1a1a1a;
     color: white;
+    height: 300px;
 }
 
 .centered-container {
@@ -60,7 +63,6 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 500px;
 }
 
 .banner {
