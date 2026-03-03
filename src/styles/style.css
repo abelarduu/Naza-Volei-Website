@@ -3,22 +3,23 @@ section p {
 }
 
 #banner-1 {
-    background-image: url("../assets/images/volleyball-in-sky.jpg");
-    background-position-y: -220px;
-}
-
-#gallery {
-    text-align: justify;
-}
-
-#banner-2 {
     background-image: url("../assets/images/volleyball-on-sand.jpg");
     background-position-y: -110px;
     height: 800px;
 }
 
+#gallery {
+    text-align: justify;
+    height: 800px;
+}
+
+#banner-2 {
+    background-image: url("../assets/images/volleyball-on-sand 2.jpg");
+    height: 800px;
+}
+
 #img-volleyball-match {
     margin: 50px;
-    height: 300px;
+    height: 450px;
     border-radius: 25px;
 }

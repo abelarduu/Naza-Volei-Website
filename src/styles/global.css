@@ -9,9 +9,9 @@
 }
 
 header {
-    background: fixed;
+    background: fixed contain;
     background-image: url("../assets/images/volleyball-net.jpg");
-    background-position-y: -550px;
+    background-position-y: -345px;
     height: 500px;
 }
 
