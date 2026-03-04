@@ -9,8 +9,7 @@
 }
 
 header {
-    background: fixed contain;
-    background-image: url("../assets/images/volleyball-net.jpg");
+    background: url("../assets/images/volleyball-net.jpg") fixed;
     background-position-y: -345px;
     height: 500px;
 }
@@ -53,7 +52,7 @@ button {
 
 footer {
     flex-direction: column;
-    background-color: #1a1a1a;
+    background: linear-gradient(to bottom, #0d0d0d 0%, #0a192f 50%, #06121f 100%);
     color: white;
     height: 300px;
 }
