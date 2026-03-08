@@ -19,3 +19,9 @@ h3 {
 section {
     height: auto;
 }
+
+@media screen and (max-width: 375px) {
+    #gallery img {
+        width: 15rem;
+    }
+}

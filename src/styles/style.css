@@ -23,3 +23,19 @@ section p {
     height: 450px;
     border-radius: 25px;
 }
+
+@media screen and (max-width: 320px){
+    #banner-1, #banner-2 {
+        background-position-y: auto;
+        }
+
+    #img-volleyball-match {
+        height: 170px;
+    }
+
+    section {
+        margin: auto;
+        padding: 60px;
+        height: auto;
+    }
+}
