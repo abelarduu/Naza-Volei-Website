@@ -3,7 +3,7 @@ section p {
 }
 
 #banner-1 {
-    background-image: url("../assets/images/volleyball-on-sand.jpg");
+    background: url("../assets/images/volleyball-on-sand.jpg") center / cover no-repeat;
     background-position-y: -110px;
     height: 800px;
 }
@@ -14,7 +14,7 @@ section p {
 }
 
 #banner-2 {
-    background-image: url("../assets/images/volleyball-on-sand 2.jpg");
+    background: url("../assets/images/volleyball-on-sand 2.jpg") center / cover no-repeat;
     height: 800px;
 }
 
@@ -24,9 +24,12 @@ section p {
     border-radius: 25px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
+
+
     #banner-1, #banner-2 {
         background-position-y: auto;
+        
         }
 
     #img-volleyball-match {
@@ -37,5 +40,10 @@ section p {
         margin: auto;
         padding: 60px;
         height: auto;
+    }
+
+    section p {
+        margin: 20px auto;
+        text-align: justify;
     }
 }

@@ -99,7 +99,7 @@ footer {
     margin: 25px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     header {
         background: url("../assets/images/volleyball-net.jpg") center / cover no-repeat;
         height: 20rem;
@@ -115,7 +115,7 @@ footer {
     }
 
     p {
-        margin: 20px;
+        margin: 10px 3px;
     }
 
     #ball {
