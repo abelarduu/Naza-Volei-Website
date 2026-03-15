@@ -25,25 +25,38 @@ section p {
 }
 
 @media screen and (max-width: 425px){
-
-
     #banner-1, #banner-2 {
         background-position-y: auto;
-        
-        }
-
+    }
+    
     #img-volleyball-match {
         height: 170px;
     }
 
     section {
         margin: auto;
-        padding: 60px;
         height: auto;
     }
-
-    section p {
+    
+    #about p{
+        padding: 60px 35px;
         margin: 20px auto;
+    }
+
+    section p{
+        width: auto;
         text-align: justify;
+        padding: 0px 40px;
+        margin: auto;
+    }
+
+    #gallery{
+        flex-direction: column;
+    }
+
+    #img-volleyball-match {
+        margin: 20px;
+        height: 18rem;
+        border-radius: 25px;
     }
 }

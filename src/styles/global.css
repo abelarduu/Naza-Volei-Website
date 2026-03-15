@@ -69,11 +69,6 @@ footer {
     text-align: center;
 }
 
-.banner {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #ball {
     position: absolute;
     top: 23rem;
@@ -117,7 +112,7 @@ footer {
     p {
         margin: 10px 3px;
     }
-
+    
     #ball {
         top: 12rem;
         transform: scale(0.6) translateX(-62.5vw);
