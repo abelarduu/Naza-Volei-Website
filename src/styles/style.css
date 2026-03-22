@@ -3,7 +3,7 @@ section p {
 }
 
 #banner-1 {
-    background: url("../assets/images/volleyball-on-sand.jpg") center / cover no-repeat;
+    background: url("../assets/images/common/volleyball-on-sand.jpg") center / cover no-repeat;
     background-position-y: -110px;
     height: 800px;
 }
@@ -14,7 +14,7 @@ section p {
 }
 
 #banner-2 {
-    background: url("../assets/images/volleyball-on-sand 2.jpg") center / cover no-repeat;
+    background: url("../assets/images/common/volleyball-on-sand 2.jpg") center / cover no-repeat;
     height: 800px;
 }
 

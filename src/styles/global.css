@@ -16,7 +16,7 @@ a {
 }
 
 header {
-    background: url("../assets/images/volleyball-net.jpg") center bottom / cover no-repeat;
+    background: url("../assets/images/common/volleyball-net.jpg") center bottom / cover no-repeat;
     height: 30rem;
 }
 
@@ -97,7 +97,7 @@ footer {
 
 @media (max-width: 425px) {
     header {
-        background: url("../assets/images/volleyball-net.jpg") center / cover no-repeat;
+        background: url("../assets/images/common/volleyball-net.jpg") center / cover no-repeat;
         height: 20rem;
     }
 

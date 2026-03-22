@@ -1,6 +1,7 @@
 h3 {
     font-family: 'oswald';
     font-size: 70px;
+    margin:0px 20px;
 }
 
 ul{
@@ -15,9 +16,34 @@ ul{
 }
 
 .athlete{
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin: 40px 20px;
+    padding: 20px;
+    
     border-radius: 20px;
-    background-color: #3eb4f4;
+    background: linear-gradient(to right, #fff9f9, #3eb4f4);
     width: 70vw;
-    height: 120px;
+    height: auto;
+}
+
+.athlete-photo {
+    border-radius: 100px;
+    width: 150px;
+    height:150px;
+}
+
+.athlete-name{
+    margin: 20px;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    .athlete{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 60px 30px;
+        width: 60vw;
+    }
 }
